@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    position: relative;
+}
+ul {
+    list-style: none;
+}
+nav {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    font-size: 13px;
+    letter-spacing: 0.01rem;
+    color: var(--nav-grey);
+}
+.left-nav {
+    padding: 10px;
+    margin-top: 0.8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 1.2rem;
+}
+.left-nav > li {
+    margin-right: 1rem;
+}
+.right-nav {
+    width: 281px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 77%;
+    padding: 0 1.4em;
+}
+.right-nav-ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+.right-nav-ul > li {
+    padding: 5px;
+    color: var(--nav-grey);
+}
+.sign-in {
+    display: inline-block;
+    background: #1a73e8;
+    background-size: auto;
+    border: none;
+    padding: 10px 24px;
+    border-width: 1px;
+    border-color: rgb(66, 133, 244);
+    color: white;
+    outline-color: white;
+    font-size: 14px;
+    text-align: left;
+    white-space: nowrap;
+    border-radius: 4px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.sign-in:hover {
+    box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);
+    background: #2b7de9;
+}
+.main-section {
+    margin-top: 21.9vh;
+}
+.google-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.search-tab {
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+}
+.search-label {
+    display: none;
+}
+.google-mic-logo {
+    height: 23px;
+    display: inline-block;
+}
+.search {
+    width: 582px;
+    height: 3.4em;
+    padding: 15px;
+    padding-left: 45px;
+    border: 1px solid#dfe1e5;
+    background: #fff;
+    border-radius: 24px;
+}
+.search:focus {
+    outline:none; 
+}
+.search:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+.search-tab:before {
+    content: "";
+    position: absolute;
+    height:35px;
+    width: 35px;
+    z-index: 99;
+    background-image: url("https://svg-clipart.com/svg/grey/dY2WMR7-search-icon-light-grey-vector.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 55%;
+    margin-top: 9px;
+}
+.search-tab:after {
+    content: "";
+    position: absolute;
+    height:23px;
+    width: 23px;
+    z-index: 99;
+    margin-left: 54%;
+    margin-top: 9px;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.search-buttons {
+    display: flex;
+    justify-content: center;
+}
+.search-buttons > button {
+    padding: 10px 11px;
+    margin-top: 18px;
+    margin-right: 12px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    font-size: 14px;
+    color: #3c4043;
+}
+.search-buttons > button:hover {
+    box-shadow:0 1px 1px rgb(0 0 0 / 10%);
+    border:1px solid #dadce0;
+    color: #202124;
+    border-radius: 4px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    font-size: 14px;
+    border-top: solid 0.1px;
+    border-color: rgb(218, 220, 224);
+    color: #70757a;
+    background-color:#f2f2f3;
+    overflow: hidden;
+    align-items: center;
+}
+.left-footer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.right-footer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 62%;
+}
+.right-footer li, 
+.left-footer li {
+    white-space: nowrap;
+    margin-right: 35px;
+    margin-top: 6px;
+    margin-bottom: 0;
+}

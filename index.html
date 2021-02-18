@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Google</title>
+            <link rel="shortcut icon" href="https://www.google.com/favicon.ico">
+            <link rel="stylesheet" href="google-page.css">
+    </head>
+
+    <body>
+        <nav>
+            <ul class="left-nav">
+                <li>About</li>
+                <li>Store</li>
+            </ul>
+            
+            <div class="right-nav">
+
+                <ul class="right-nav-ul">
+                    <li>Gmail</li>
+                    <li>Images</li>
+                </ul>
+
+                <img width="52" alt="Google Menu Icon" src="https://user-images.githubusercontent.com/78223982/108134251-e0d4c800-7083-11eb-998b-02411cd3fbad.PNG">
+
+                <!--put submit button inside form for html 'action' to redirect-->
+                <form action="https://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                    <button type="submit" value="sign-in" class="sign-in">Sign in</button>
+                </form>
+            </div>
+
+        </nav>
+
+        <div class="main-section">
+
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google-logo" class="google-logo">
+
+            <div class="search-tab">
+                <label for="search" class="search-label">Search</label>
+                <input 
+                    type="text"
+                    class="search"
+                    name="search"
+                    >
+            </div>
+            
+            <div class="search-buttons">
+                <button 
+                    type="submit"
+                    name="Google Search"
+                    value="Google Search">
+                    Google Search
+                </button>
+                <button 
+                    type="submit"
+                    name="I'm Feeling Lucky"
+                    value="I'm Feeling Lucky">
+                    I'm Feeling Lucky
+                </button>
+            </div>
+
+        </div>
+
+        <footer>
+            <ul class="left-footer">
+                <li>Advertising</li>
+                <li>Business</li>
+                <li>How Search works</li>
+            </ul>
+
+            <ul class="right-footer">
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+            </ul>
+        </footer>
+
+    </body>
+
+
+
+
+</html>
